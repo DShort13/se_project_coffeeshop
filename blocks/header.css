@@ -11,6 +11,8 @@
   max-height: 800px;
   box-sizing: border-box;
   padding: 30px 80px 40px;
+  position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -32,13 +34,12 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  display: block;
 }
 
 .header__description {
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
@@ -49,7 +50,8 @@
   width: 646px;
   height: 568px;
   right: 5px;
-  top: 148px;
+  top: 124px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -59,8 +61,7 @@
   align-items: flex-end;
   box-sizing: border-box;
   width: 100%;
-  font-family: "Inter";
-  font-style: normal;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
