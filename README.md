@@ -14,3 +14,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 Add additional CSS styles to add more customisation to the menu and menu items.
+
+## Link to GitHub Page
+
+https://dshort13.github.io/se_project_coffeeshop/
